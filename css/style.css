@@ -1,0 +1,346 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,400&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+  body{
+     padding-top: 78.25px;
+} 
+@media (max-width:990px) {
+    body{
+        padding-top: 50.25px;
+       
+    }
+}
+.header{
+    background: #0E0E0E;
+    border-bottom:  0.02px solid rgba(67, 67, 67, 0.539);
+     
+}   
+  .header .container h1{
+    font-family: "Fira Sans";
+    font-size: 30px;
+    font-weight: 395;
+}
+ .header .container  li{
+    font-family: "Fira Sans";
+    text-transform: uppercase;
+    font-size: 17.5px;
+    font-weight: 395;
+    color: white;
+    
+}
+.container  .item{
+    border-bottom: 4px solid rgba(255, 255, 255, 0);
+    transition: 0.5s;
+}
+.container  .item:hover{
+   
+   border-bottom:4px solid rgb(255, 255, 255);
+} 
+@media (max-width:990px) {
+    .navmenu{
+        display: none;
+          
+        } 
+         .navmenu li{
+            border-bottom: 1px solid white;
+        } 
+}
+
+
+.poster{
+   background:#0E0E0E ;
+}
+.poster h1{
+    
+    color:white;
+    font-family: "Fira Sans";
+    letter-spacing: normal;
+    font-size: 110px;
+    font-weight: 600;
+    line-height: 1.15;
+     
+
+}
+ @media (max-width:750px) { 
+     .poster h1{ 
+        font-size: 60px;
+    }
+    
+}
+.poster section{
+    margin-top: 30px;
+    width: 23%;
+    height: 10px;
+    background: white;
+}
+.poster h6{
+    
+    color:rgb(242, 241, 241);
+    font-family: "playfire";
+    letter-spacing: normal;
+    font-size: 34px;
+    font-weight: 300;
+    
+    
+
+}
+.poster button{
+    padding: 10px;
+    background:#fe7c6d;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    color: #0e0e0e;
+    font-size: 18px;
+    font-family: "fira sans";
+    border:0;
+    font-weight: 400;
+}
+.poster button:hover{ 
+    background:#FF9285;
+}
+.cards-section{
+    background: #0e0e0e;
+}
+.cards-section p{
+    font-family: "playfire";
+   font-size:34px ;
+   color: white;
+
+}
+.cards-section .card{
+    overflow: hidden;
+    
+}
+.cards-section img{
+   border:0.1px solid rgb(57, 57, 57);
+   border-radius: 6px; 
+}
+.cards-section section{
+    background:rgba(0, 0, 0, 0.596);
+    backdrop-filter: blur(10px);
+    width: 100%;
+    height: 100%;
+    top:102%;
+    transition: 0.5s;
+    color: white;
+    font-family: "fira sans";
+    font-size: 20px;
+    font-weight: 400;
+}
+.cards-section .card:hover section{
+    top:0;
+}
+.cards-section a{
+    text-decoration: none;
+    color:white;
+    letter-spacing: 3px;
+    font-weight:400;
+    background:transparent;
+    border:2px solid white;
+    font-family: "fira sans";
+    transition: 0.5s;
+    
+}
+.cards-section a:hover{
+    background:white;
+    color:rgb(0, 0, 0);
+}
+
+
+.testimorial  h2{
+    color:#1c1c1c;
+    font-family: "playfire display";
+    
+    font-size: 48px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 40px;
+    
+    
+}
+.testimorial img{
+   max-width: 30%;
+   border-radius: 50%;
+}
+.testimorial h3{
+    
+    font-size: 1.55rem;
+    font-family: "Playfair Display";
+    font-weight: 600;
+    line-height: 1.2;
+}
+.testimorial h4{
+    
+    font-size: 20px;
+    color:#6e6e6e;
+    text-transform: uppercase;
+    font-family: "fira sans";
+    font-weight:350;
+    
+}
+.testimorial p{
+    
+    font-size: 24px;
+    color:#7d7d7d;
+    
+    font-family: "fira sans";
+    font-weight:350;
+    
+}
+
+.q-and-a{
+    background:#0e0e0e;  
+}
+.q-and-a h3{
+    font-size: calc(1.325rem + 0.9vw);
+    font-family: "Playfair ";
+    font-weight: 600;
+    line-height: 1.2;
+    color:#ffffff;
+}
+.q-and-a .accordion-box{
+    max-width: 65%;
+    
+   
+}
+@media (max-width:990px) {
+    .q-and-a  .accordion-box{
+        max-width: 100%;
+       
+    }
+}
+.q-and-a .accordion-box button{
+    background:#0e0e0e;
+    color:white;
+    font-weight: 700 ;
+    font-size: calc(1.275rem + 0.3vw);
+    font-family: "Playfair ";
+    line-height: 50px;
+
+}
+.q-and-a .accordion-box .accordion-body {
+    background:#0e0e0e;
+    color:white;
+    font-weight: 400 ;
+    font-size: 22px;
+   font-family: "fira sans";
+
+    
+}
+
+.license h3{
+    color:#1c1c1c;
+    font-family: "playfire display";
+    
+    font-size: 48px;
+    font-weight: 500;
+    
+    line-height: 40px;
+}
+
+.license .card-body h3{
+    color:#1c1c1c;
+    font-family: "playfire display";
+    
+    font-size: 45px;
+    font-weight: 400;
+    
+    line-height: 40px;
+}
+@media (max-width:990px) {
+    .license .card-body h3{
+        font-size: 28px;
+       
+    }
+}
+.license .card-body h5{
+    color:#1c1c1c;
+    font-family: "fira sans";
+    
+    font-size: 37px;
+    font-weight: 600;
+   
+    line-height: 40px;
+}
+.license .card-body h5 span{
+    text-align: center;
+    vertical-align: middle;
+}
+.license .card-body p{
+    color:#363636;
+    font-family: "fira sans";
+    
+    font-size: 20px;
+    font-weight: 400;
+    
+    line-height: 30.5px;
+}
+.license  .no-1{
+    background: #F2F1F1;
+    border-radius: 0%;
+    
+}
+.license  .no-2{
+    background: #FFADA4;
+    border-radius: 0%;
+    
+}
+.license  .no-3{
+background: #4A4A4A;
+border-radius: 0%;
+
+
+}
+.massage{
+    background: #FF9285;
+}
+.massage h1{
+    color:#0e0e0e;
+    font-family: "fira sans";
+    
+    font-size: 43px;
+    font-weight: 400;
+   
+    line-height:normal;
+}
+.massage p{
+    color:#0e0e0e;
+    font-family: "fira sans";
+    
+    font-size: 32px;
+    font-weight: 300;
+   
+   
+}
+.massage button{
+    background: transparent;
+    border: 2px solid #0e0e0e;
+    color:#262626;
+    font-size: 18px;
+    font-family: "fira sans";
+    letter-spacing: 2px;
+    font-weight: 400;
+    transition: 0.5s;
+}
+.massage button:hover{
+    background:  #0e0e0e;
+    color:#ebebeb;
+
+}
+.footer h3{
+    font-size:25px ;
+    color:#0e0e0e;
+    font-family: "playfire display";
+    font-weight: 500;
+}
+.footer li{
+    font-size:18px ;
+    text-transform: lowercase;
+    color:#6e6e6e;
+    font-family: "fira sans";
+    font-weight: 300;
+}  
